@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        Libary management system spec:
+    </h1>
+
+    <h2>
+        <ul>
+            <li>
+                The project is specifically designed for for the use of libarians and libary users
+            </li>
+            <li>
+                The product will work as a complete user interface for libary management process and libary usage from
+                ordinary users
+            </li>
+            <li>
+                Users:
+                libarians
+                libary users
+            </li>
+            <li>
+                The system will provide a search functionality to facilate the search of resouces.The search will be
+                based on various categories bookname or the ISBN.
+            </li>
+            <li>
+                The libary staff personnel can add/update the resouces and the resouce users from the system.The users
+                of the system can request issue/renew/return of books
+            </li>
+            <li>
+                Provide inforamtion on availible books in the libary
+            </li>
+            <li>
+                Provide information about the user
+            </li>
+            <li>
+                The libarian will act as as the adminstartor to control members and manage vooks
+            </li>
+        </ul>
+    </h2>
+
+    <h2>
+        Libarian features
+        <ul>
+            <li>
+                 A librarian can issue a book to the member.
+            </li>
+            <li>
+                 Can view the different categories of books available in the Library
+            </li>
+            <li>
+                 Can view the List of books available in each category
+            </li>
+            <li>
+                 Can take the book returned from students
+            </li>
+            <li>
+                 Add books and their information to the database
+            </li>
+            <li>
+                 Edit the information of existing books
+            </li>
+            <li>
+                 Can check the report of the existing books
+            </li>
+            <li>
+                 Can check the report of the issued books
+            </li>
+            <li>
+                 Can access all the accounts of the students
+            </li>
+        </ul>
+    </h2>
+
+    <h2>
+        Mmeber features
+        <ul>
+            <li>
+                 Can view the different categories of books available in the Library
+            </li>
+            <li>
+                 Can view the List of books available in each category
+            </li>
+            <li>
+                 Can own an account in the library.
+            </li>
+            <li>
+                Can put a request for a new book
+            </li>
+            <li>
+                 Can view the history of books issued to him previously
+            </li>
+            <li>
+                 Can search for a particular book
+            </li>
+        </ul>
+    </h2>
+
+    <h2>
+        BookStatus:
+        <li>SHELFED</li>
+        <li>ISSUED</li>
+        <li>RETURNED</li>
+
+        <br/>
+
+        Person:
+        <li>String id</li>
+        <li>String first_name</li>
+        <li>String last_name</li>
+        <li>String phone_no</li>
+        <li>Address address</li>
+
+        <br/>
+
+        Member:
+        <li>Date dateMemberCreated</li>
+        <li>int maxBookLimit</li>
+        <li>int numBooksIssued</li>
+        
+        <br/>
+
+        Book:
+        <li>String ISBN</li>
+        <li>String Author</li>
+        <li>String Name</li>
+        <li>int edition</li>
+        <li>Bookstatus status</li>
+        <li>Date dateOfPurchase</li>
+        <li>int numOfCopies</li>
+        <br/>
+        <br/>
+    </h2>
+</body>
+
+</html>
